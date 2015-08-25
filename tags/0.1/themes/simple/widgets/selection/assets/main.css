@@ -1,0 +1,14 @@
+@CHARSET "UTF-8";
+.selection-widget .errorMessage {margin:.8em; color:red; border:1px dashed red; padding: 0.3em; -moz-border-radius:7px;}
+.selection-widget .row.prices label, .tyreSelection-widget .row.producers label {display:block; margin:0 -0.8em .5em;float:none;}
+.selection-widget .row.producers label {display:block; margin:0 0 .5em;float:none;}
+.selection-widget .row.prices {margin:0 0.8em 0.8em}
+.selection-widget .row.prices input {width:5em; margin:0 0.2em;}
+
+.selection-widget .row label {font-weight:bold;}
+.selection-widget .row.producers label {width:auto}
+.selection-widget .row.producers span {width: 50%; display:block; float:left;}
+.selection-widget .row.producers span label {float:none; display:inline; margin: 0; font-weight: normal;}
+.selection-widget .row.producers span input {width:auto}
+.selection-widget .row.producers b {padding-right:1em; border-right:1px solid;}
+.selection-widget .row.producers .control {border-bottom: 1px dotted; margin-left: 1em;font-weight: normal;}

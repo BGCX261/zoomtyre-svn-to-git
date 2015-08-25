@@ -1,0 +1,89 @@
+@CHARSET "UTF-8";
+
+html,
+body									{font-family:Helvetica, Tahoma; line-height:1.5em;}
+table									{border-collapse:collapse; vertical-align:top;}
+td										{vertical-align:top;}
+img										{border:medium none; vertical-align:text-bottom;}
+pre.normal								{font-family:inherit; font-size:inherit; margin:0; padding:0;}
+.no-decoration							{text-decoration:none;}
+.border-bottom							{border-bottom: 1px solid #888;margin: 0.3em 0 1em;padding-bottom: 1em;}
+.norm-font								{font-size: 120%;line-height: 140%;}
+.href-like-text							{color: inherit;text-decoration: none;cursor: pointer;}
+img.xit									{background:url(/images/xit.gif) no-repeat 0 0; width:10px; height:10px; vertical-align:baseline;}
+img.xit:hover							{background-position:-10px 0;}
+.logo									{float:left;}
+.main									{width:940px; margin:10px auto;	position:relative;}
+.main .logout							{text-align:right; font-size:0.8em;}
+.main h1.notes							{margin:1em 0;}
+.menu									{clear:both; margin-bottom:10px; overflow:hidden; width:100%;}
+.sub_menu, 
+.last_menu								{background-color:#EDEDED; color:#005689;}
+.main_menu.menu ul						{clear:both;}
+.menu ul								{float:left; list-style-type:none; margin:0; padding:0;}
+.menu ul li								{display:block; float:left; margin:0; padding:0; white-space:nowrap; width:auto;}
+.menu ul li a							{border-right:1px solid #BEBEBE; text-decoration:none; display:block; margin:0; padding:4px 5px; width:auto; color:#000;}
+.sub_menu.menu ul li a					{color:#005689; border-right:1px solid #BEBEBE;}
+.menu ul li a:hover, 
+.menu ul li a.active					{color:#fff; background-color:#BEBEBE;}
+.sub_menu.menu ul li a:hover, 
+.sub_menu.menu ul li a.active			{background-color:#008000;color:#fff;}
+.menu ul li a.last						{border:none; margin-right:0;}
+.menu ul.crumble li a					{border-right:2px solid #BEBEBE; margin-right:0; color:#fff; background-color:#005689;}
+.menu ul.crumble li a:hover				{color:#fff; background-color:#000;}
+.menu ul.level							{border-left:5px solid #BEBEBE;}
+.footer									{margin:1em 0; clear:both; text-align: center; float: left; width: 100%;}
+.content								{border-top: 6px solid red; margin: 20px auto 50px; padding-top: 20px;}
+.content table.data.vertical			{border: 1px solid #ccc;}
+.content table.data th					{background-color: #555; color: #fff; border-right:1px solid #FFF; font-weight:normal; padding:0.3em;}
+.content table.data th a				{color: #fff; text-decoration: none;}
+.content table.data.vertical th			{max-width: 30%; padding: 0.3em 1em;}
+.content table.data.vertical td			{padding: 0.3em 1em;}
+.content table.data tr					{border-bottom: 1px solid #CCC;}
+.content table.data tr.even				{background-color: #D4E3E6;}
+.content table.data tr.even	.ar			{color: #FFF}
+.content table.data tr.odd	.ar			{color: #D4E3E6;;}
+.content h1,
+.content h2,
+.content h3								{margin: 0 0 0.5em; clear: both;	line-height: normal !important;}
+.content p.small						{color:#333;font-size:small;margin:3px 10px 14px;}
+.content .errorSummary, 
+.content .errorMessage					{width: auto;border: 1px solid #CC0000;background: #FFEEEE;	font-size: 0.9em;width: 400px;margin: 15px auto 20px;padding: 10px;}
+.content label.error					{font-weight: bold;}
+.content .errorSummary p				{margin: 0 auto 5px;}
+.content .errorSummary ul				{margin: 0;}
+.content .form fieldset					{border: none;}
+.content .form fieldset legend			{font-size: 1.4em;}
+.content .form .header3					{padding-left: 2em;border-bottom: 3px solid #eee; color: #999;}
+.content .form .row						{margin: 1em 0;clear: both;padding: 3px;}
+.content .form .row:hover				{background: #F9F9F9;}
+.content .form .row.buttons				{margin-right: 2em;text-align: right;}
+.content .form .row.buttons *			{margin-left:30px; font-size:1.2em;}
+.content .form .row label				{display:block; float:left; width:30%;}
+.content .form .row .input label		{width:auto; display:inline; float:none;}
+.content .form .row .input, 
+.content .form .row div.layout1			{margin-left:30%;}
+.content .form .row .input span.list	{margin-left:0.7em;}
+.content .form .row.label-norm label	{float:none; width:100%;}
+.content .form .row label.norm			{display:inline; width:auto; float:none;}
+.content img.bordered					{border:1px solid #666;}
+.content .actionBar						{margin:0 0 1em 0;}
+.content .actionBar a					{margin-left:2em;}
+.content .errorMessage					{}
+.content div.operations					{clear:both;margin:0 0 1em;}
+.content div.operations ul				{list-style:none outside none; padding:0; margin:0; clear:both;}
+.content div.operations ul li			{float: left;padding-right: 2em;}
+.content .hint							{color:#999;font-size:0.7em;}
+.content .row .hint						{margin: 0;}
+.content .list-view .items .view		{margin-bottom: 2em;}
+.content #sidetreecontrol				{font-size: 80%;}
+.content .treeview,
+.content #ajaxView						{line-height: 90%;font-size: 80%;}
+.content #ajaxView						{line-height: normal;}
+.content .treeview a					{padding-left: 3px;}
+table.detail-view .no					{color:pink;}
+table.detail-view .little				{color:red;}
+table.detail-view .normal				{color:black;}
+table.detail-view .many					{color:green;}
+table.detail-view table.inside th,
+table.detail-view table.inside td		{width: inherit !important;}

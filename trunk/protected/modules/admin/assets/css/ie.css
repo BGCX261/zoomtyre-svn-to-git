@@ -1,0 +1,13 @@
+@CHARSET "UTF-8";
+
+#popup-overlay { /* ie6 hack */ position: absolute; height: expression(document.body.scrollHeight > document.body.offsetHeight ? document.body.scrollHeight : document.body.offsetHeight + 'px');}
+/* Popup */
+#popup b {background-image: none;}
+#popup i {display: block; position: absolute; width: 100%; height: 100%;}
+#popup .tl i {top: 18.5px; left: 18.5px;}
+#popup .tr i {top: 18.5px;}
+#popup .bl i {left: 18.5px;}
+#popup .tl i {filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src=/images/popup/sq-popup.png,sizingMethod=crop);}
+#popup .tr i {filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src=/images/popup/sq-popup-tr.png,sizingMethod=crop);}
+#popup .bl i {filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src=/images/popup/sq-popup-bl.png,sizingMethod=crop);}
+#popup .br {filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src=/images/popup/sq-popup-br.png,sizingMethod=crop);}

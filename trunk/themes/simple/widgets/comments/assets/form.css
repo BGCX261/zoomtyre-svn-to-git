@@ -1,0 +1,5 @@
+@CHARSET "UTF-8";
+
+.comments-form .input {width: 500px;}
+.comments-form img {vertical-align: top; cursor:pointer;}
+.comments-form .comment-verify {font-size: 40px;height: 48px;width: 3em; margin-top:0; padding:0;}

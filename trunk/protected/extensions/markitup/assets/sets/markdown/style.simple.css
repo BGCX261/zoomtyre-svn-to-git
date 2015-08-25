@@ -1,0 +1,12 @@
+/* -------------------------------------------------------------------
+// markItUp!
+// By Jay Salvat - http://markitup.jaysalvat.com/
+// ------------------------------------------------------------------*/
+.markdown_wo_images .markItUp .markItUpButton1 a {background-image:url(images/bold.png);}
+.markdown_wo_images .markItUp .markItUpButton2 a {background-image:url(images/italic.png);}
+.markdown_wo_images .markItUp .markItUpButton3 a {background-image:url(images/list-bullet.png);}
+.markdown_wo_images .markItUp .markItUpButton4 a {background-image:url(images/list-numeric.png);}
+.markdown_wo_images .markItUp .markItUpButton5 a {background-image:url(images/link.png);}
+.markdown_wo_images .markItUp .markItUpButton6 a {background-image:url(images/quotes.png);}
+.markdown_wo_images .markItUp .markItUpButton7 a {background-image:url(images/code.png);}
+.markdown_wo_images .markItUp .preview a {background-image:url(images/preview.png);}

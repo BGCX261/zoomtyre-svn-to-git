@@ -1,0 +1,5 @@
+@CHARSET "UTF-8";
+
+.comments ul { list-style: none outside; margin:0; padding: 0 }
+.comments ul li { background: #eee; margin: 0 0 20px; padding: 10px; border-color:#DDD #DDD #BBB #BBB; border-width: 1px; border-style: solid }
+.comments .author { font-weight: bold }

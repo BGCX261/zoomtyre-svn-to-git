@@ -1,0 +1,119 @@
+html, body { margin: 0; padding: 0; height: 100%; font-family: Verdana, Tahoma, sans; font-size: 0.95em; line-height: 1.5em;}
+a { color: #0099CC; text-decoration: none }
+a:link, a:visited, a:hover { color: #0099CC; text-decoration: none }
+a:hover { color: #99CC00 }
+b {border-bottom: 1px dotted; font-weight: normal;}
+.breadcrumbs {margin-bottom:0.8em}
+.watermark {color: #ccc;}
+#header {padding: .2em 0; margin-bottom:1em; color: #666; border-bottom:4px solid #aaa }
+#header #auth a {margin-right: 1em}
+#header #auth a.recovery {margin-left: 1em}
+#header #search {text-align: right}
+#header input { margin: auto !important }
+#header input.text {width: 80px}
+#header label {display:inline !important}
+
+#logo { text-align: center; margin: .2em 0 .6em 0; line-height: 1em }
+#footer {margin-top: 2em; color:#CCC; padding: 1em; background: url('/images/footer-bg.png') }
+
+#content {margin-top: 1em}
+#content h1 {text-align: center; margin-bottom:0.3em; padding-bottom:0.3em; border-bottom:4px solid #eee; display:none;}
+#content h2 {font-size: 1.2em; font-weight: normal;}
+
+
+.selection-result .item {margin:0 0 1em;}
+.selection-result .item ul {list-style:none outside; margin:0; padding:0;}
+.selection-result .item ul li {float: left;}
+.selection-result .item .tb {float:left;}
+.selection-result .item .tb img {vertical-align: bottom;}
+.selection-result .item h3 {font-weight: bold; margin-bottom: 0.3em; line-height:1.4em;}
+.selection-result .item h3 i a {color: #f26a25; font-style:normal; }
+.selection-result .item h3 a {text-decoration: none; }
+.selection-result .item .size {display: block; font-size: 1.3em; margin-bottom:0.3em; font-weight:bold;}
+.selection-result .item .size a { color:#2D2D2C; text-decoration:none;}
+.selection-result .item .price big {font-size:1.5em}
+.selection-result .item .short_info {color:#2D2D2C; text-decoration: none;}
+
+/* Containers
+----------------------------------------------------------------------------------------------------*/
+.container_12 { margin-left: auto; margin-right: auto; width: 960px; }
+/* Grid >> Children (Alpha ~ First, Omega ~ Last)
+----------------------------------------------------------------------------------------------------*/
+.alpha { margin-left: 0 !important }
+.omega { margin-right: 0 !important }
+/* Grid >> Global
+----------------------------------------------------------------------------------------------------*/
+.grid_1, .grid_2, .grid_3, .grid_4, .grid_5, .grid_6, .grid_7, .grid_8, .grid_9, .grid_10, .grid_11, .grid_12 { display: inline; float: left; position: relative; margin-left: 10.0px; margin-right: 10.0px; }
+/* Grid >> 2 Columns
+----------------------------------------------------------------------------------------------------*/
+.container_12 .grid_1 { width: 60px }
+.container_12 .grid_2 { width: 140px }
+.container_12 .grid_3 { width: 220px }
+.container_12 .grid_4 { width: 300px }
+.container_12 .grid_5 { width: 380px }
+.container_12 .grid_6 { width: 460px }
+.container_12 .grid_7 { width: 540px }
+.container_12 .grid_8 { width: 620px }
+.container_12 .grid_9 { width: 700px }
+.container_12 .grid_10 { width: 780px }
+.container_12 .grid_11 { width: 860px }
+.container_12 .grid_12 { width: 940px }
+/* Prefix Extra Space >> 2 Columns
+----------------------------------------------------------------------------------------------------*/
+.container_12 .prefix_1 { padding-left: 80px }
+.container_12 .prefix_2 { padding-left: 160px }
+.container_12 .prefix_3 { padding-left: 240px }
+.container_12 .prefix_4 { padding-left: 320px }
+.container_12 .prefix_5 { padding-left: 400px }
+.container_12 .prefix_6 { padding-left: 480px }
+.container_12 .prefix_7 { padding-left: 560px }
+.container_12 .prefix_8 { padding-left: 640px }
+.container_12 .prefix_9 { padding-left: 720px }
+.container_12 .prefix_10 { padding-left: 800px }
+.container_12 .prefix_11 { padding-left: 880px }
+/* Suffix Extra Space >> 2 Columns
+----------------------------------------------------------------------------------------------------*/
+.container_12 .suffix_1 { padding-right: 80px }
+.container_12 .suffix_2 { padding-right: 160px }
+.container_12 .suffix_3 { padding-right: 240px }
+.container_12 .suffix_4 { padding-right: 320px }
+.container_12 .suffix_5 { padding-right: 400px }
+.container_12 .suffix_6 { padding-right: 480px }
+.container_12 .suffix_7 { padding-right: 560px }
+.container_12 .suffix_8 { padding-right: 640px }
+.container_12 .suffix_9 { padding-right: 720px }
+.container_12 .suffix_10 { padding-right: 800px }
+.container_12 .suffix_11 { padding-right: 880px }
+/* Push Space >> 2 Columns
+----------------------------------------------------------------------------------------------------*/
+.container_12 .push_1 { left: 80px }
+.container_12 .push_2 { left: 160px }
+.container_12 .push_3 { left: 240px }
+.container_12 .push_4 { left: 320px }
+.container_12 .push_5 { left: 400px }
+.container_12 .push_6 { left: 480px }
+.container_12 .push_7 { left: 560px }
+.container_12 .push_8 { left: 640px }
+.container_12 .push_9 { left: 720px }
+.container_12 .push_10 { left: 800px }
+.container_12 .push_11 { left: 880px }
+/* Pull Space >> 2 Columns
+----------------------------------------------------------------------------------------------------*/
+.container_12 .pull_1 { right: 80px }
+.container_12 .pull_2 { right: 160px }
+.container_12 .pull_3 { right: 240px }
+.container_12 .pull_4 { right: 320px }
+.container_12 .pull_5 { right: 400px }
+.container_12 .pull_6 { right: 480px }
+.container_12 .pull_7 { right: 560px }
+.container_12 .pull_8 { right: 640px }
+.container_12 .pull_9 { right: 720px }
+.container_12 .pull_10 { right: 800px }
+.container_12 .pull_11 { right: 880px }
+/* Clear Floated Elements
+----------------------------------------------------------------------------------------------------*/
+.clear { clear: both; display: block; overflow: hidden; visibility: hidden; width: 0; height: 0; }
+.clearfix:after { clear: both; content: ' '; display: block; font-size: 0; line-height: 0; visibility: hidden; width: 0; height: 0; }
+.clearfix { display: inline-block }
+* html .clearfix { height: 1% }
+.clearfix { display: block }

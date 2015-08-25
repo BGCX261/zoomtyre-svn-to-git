@@ -1,0 +1,36 @@
+@CHARSET "UTF-8";
+
+.comments-count, .comments-count .f_r, .comments-count .f_b, .comments-count .f_l, .comments-count .f_c { float: left; position: relative; z-index: 1; width: auto; height: auto; margin: 0; padding: 0 }
+.comments-count .f_tt, .comments-count .f_rr, .comments-count .f_bb, .comments-count .f_ll { display: none; }
+.comments-count { margin: -3px 15px 0 0; background: url('count_t.png') no-repeat left top;
+//background: none;
+}
+.comments-count .f_r { left: 9px; background: url('count_r.png') no-repeat right top;
+//background: none;
+}
+.comments-count .f_b { top: 3px; margin-bottom: -4px; background: url('count_b.png') no-repeat right bottom;
+//background: none;
+}
+.comments-count .f_c { float: none; position: relative; left: 9px; top: -3px; margin: 0 9px 0 0; background: #fff;
+//padding: 1px 0;
+}
+.comments-count .f_l { left: -9px; padding: 3px 0 4px; background: url('count_l.png') no-repeat left bottom;
+//background: none;
+}
+
+.comments-count a, .comments-count a:hover { color: #a2a4a6; text-decoration: none }
+
+* html .comments-count .f_r, * html .comments-count .f_b, * html .comments-count .f_l { height: 0; }
+* html .comments-count .f_tt, * html .comments-count .f_rr, * html .comments-count .f_bb, * html .comments-count .f_bb *, * html .comments-count .f_ll, * html .comments-count .f_ll * { display: block; position: absolute; left: 0; top: 0; }
+* html .comments-count .f_tt { filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src=count_t.png,sizingMethod=crop); }
+* html .comments-count .f_rr { filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src=count_r.png,sizingMethod=crop); }
+* html .comments-count .f_tt { width: expression( parentNode.offsetWidth ); height: 30px; }
+* html .comments-count .f_bb { width: expression( parentNode.offsetWidth ); height: 30px; }
+* html .comments-count .f_rr { width: 30px; height: expression( parentNode.offsetHeight ); }
+* html .comments-count .f_ll { width: 30px; height: expression( parentNode.offsetHeight ); }
+* html .comments-count .f_bb, * html .framed .f_ll { overflow: hidden; }
+* html .comments-count .f_bb * { width: 3000px; height: 30px; filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src=count_b.png,sizingMethod=crop); }
+* html .comments-count .f_ll * { width: 30px; height: 3000px; filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src=count_l.png,sizingMethod=crop); }
+/* Исправляем неправильный расчет позиции при "нечетной ширине" */
+* html .comments-count .f_rr, * html .comments-count .f_bb * { right: expression( this.parentNode.offsetWidth % 2 ? -1 : 0 ); left: auto; }
+* html .comments-count .f_ll, * html .comments-count .f_ll *, * html .comments-count .f_bb, * html .comments-count .f_bb * { bottom: expression( this.parentNode.offsetHeight % 2 ? -1 : 0 ); top: auto; }
